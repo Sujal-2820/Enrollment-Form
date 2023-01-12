@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enrollment Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr>
+
+    <div class="box">
+        <div class="container">
+            <form action="" id="form">
+                <div class="f1">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" class="in" required>
+                </div>
+                <div class="f1">
+                    <label for="id">ID:</label>
+                    <input type="text" name="id" class="in" required>
+                </div>
+                <div class="f1">
+                    <label for="course">Course:</label>
+                    <input type="text" name="course" class="in" required>
+                </div>
+                <div class="f1">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" class="in" required>
+                </div>
+                <div class="f2">
+                    <label for="Gender">Gender:</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="C">
+                        <div class="c2"><input type="radio" name="skills" value="Male">
+                            <label>Male</label>
+                        </div>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="c2"><input type="radio" name="skills" value="Female">
+                            <label for="">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="f2">
+                    <label for="skills">Skills:</label>
+                    <div class="c">
+                        <div class="c1">
+                            <input type="checkbox" class="checkbox1" name="skills" value="HTML">
+                            <label for="" >HTML</label>
+                        </div>&nbsp;
+                        <div class="c1">
+                            <input type="checkbox" class="checkbox1" name="skills" value="CSS">
+                            <label for="">CSS</label>
+                        </div>&nbsp;
+                        <div class="c1">
+                            <input type="checkbox" class="checkbox1" name="skills" value="JS">
+                            <label for="">JS</label>
+                        </div>
+                    </div>
+                </div>
+                    <input class="submit" type="submit" value="Submit">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input class="submit-clear" type="reset" value="Clear">
+            </form>
+        </div>
+        <div class="display">
+            <h2 style="color: black;">STUDENT &nbsp; DATA</h2>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
